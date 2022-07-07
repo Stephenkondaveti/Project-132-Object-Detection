@@ -1,0 +1,130 @@
+body {
+    font-family: 'Avenir', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Helvetica Neue", Arial, sans-serif;
+}
+
+.Header {
+    width: 100%;
+    text-align: center;
+    background-color: rgb(109, 107, 107);
+    height: 85px;
+    font-family: 'Yeon Sung';
+    box-shadow: 2px 2px 8px gray;
+    z-index: 1;
+    padding-top: 7px;
+}
+
+.Title {
+    font-size: 28px;
+    margin-top: 15px;
+}
+
+.Card {
+    box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 300px;
+    height: 240px;
+    border-radius: 6px;
+    background-color: rgb(232, 240, 243);
+}
+
+.cardHeader {
+    margin-bottom: 12px;
+    background-color: black;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    color: white;
+    height: 35px;
+    padding-top: 5.5px;
+    box-shadow: 2px 2px 8px gray;
+}
+
+#card2 {
+    margin-left: 800px;
+    margin-top: -260px;
+}
+
+#card3 {
+    margin-right: 800px;
+    margin-top: -260px;
+}
+
+#card4 {
+    margin-left: 400px;
+}
+
+#card5 {
+    margin-top: -260px;
+    margin-right: 400px;
+}
+
+#image1 {
+    width: 240px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 8px rgb(94, 92, 92);
+}
+
+#image2 {
+    width: 200px;
+    height: 180px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 8px rgb(94, 92, 92);
+}
+
+#image3 {
+    width: 240px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 8px rgb(94, 92, 92);
+}
+
+#image4 {
+    width: 240px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 8px rgb(94, 92, 92);
+}
+
+#image5 {
+    width: 240px;
+    height: 180px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 8px rgb(94, 92, 92);
+}
+
+.status {
+    background-color: rgb(169, 203, 224);
+    border-radius: 5px;
+    width: 30%;
+    box-shadow: 1px 1px 7px rgb(1, 26, 41);
+    font-weight: 500;
+    font-size: 15px;
+    height: 30px;
+    padding-top: 5px;
+    margin-top: 20px;
+}
+
+.back_button {
+    float: right;
+    width: 60px;
+    margin-top: -20px;
+}
+
+.objects_identified {
+    background-color: rgb(92, 184, 92);
+    border-radius: 5px;
+    width: 30%;
+    box-shadow: 1px 1px 7px rgb(2, 65, 2);
+    font-weight: 500;
+    font-size: 15px;
+    height: 30px;
+    padding-top: 5px;
+    margin-top: 20px;
+}
+
+canvas {
+    border-radius: 5px;
+    width: 450px;
+    margin-top: 40px;
+    box-shadow: 1px 1px 9px rgb(44, 44, 44);
+}
+
+#imageview {
+    margin-top: 550px;
+}
